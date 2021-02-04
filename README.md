@@ -1,4 +1,4 @@
-# projeto-mqtt-felipecaseiro
+# Repositório Sprint 8
 
 ## **Objetivo:**
 
