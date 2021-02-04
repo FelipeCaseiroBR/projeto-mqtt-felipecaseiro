@@ -1,3 +1,3 @@
 # projeto-mqtt-felipecaseiro
 
-## :dart: **Objetivo:**
+## **Objetivo:**
