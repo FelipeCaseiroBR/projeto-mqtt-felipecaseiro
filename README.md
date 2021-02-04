@@ -9,6 +9,7 @@ O objetivo do projeto é usar um arduino Uno com um sensor magnetico para monito
 As seguintes bibliotecas estão sendo usadas:
 
 PubSubClient
+
 UIPEthernet
 
 
