@@ -1,2 +1,3 @@
 # projeto-mqtt-felipecaseiro
-Entregável da Sprint 8
+
+## :dart: **Objetivo:**
