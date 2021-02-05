@@ -11,5 +11,16 @@ As seguintes bibliotecas estão sendo usadas:
 * PubSubClient
 * UIPEthernet
 
+## **Materiais**
 
+*Placa Arduino Uno
+*Módulo Ethernet (ENC28J60)
+*Sensor Magnetico (MC-38)
+*Jumpers
+*Smartphone
 
+## **Circuito:**
+
+![alt text] (https://user-images.githubusercontent.com/78046298/106600827-b0484680-6539-11eb-8e03-3ae240c8656e.png)
+
+Autor: Felipe Caseiro
