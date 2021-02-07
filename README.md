@@ -13,15 +13,15 @@ As seguintes bibliotecas estão sendo usadas:
 
 ## **Materiais**
 
-*Placa Arduino Uno
+* Placa Arduino Uno
 
-*Módulo Ethernet (ENC28J60)
+* Módulo Ethernet (ENC28J60)
 
-*Sensor Magnetico (MC-38)
+* Sensor Magnetico (MC-38)
 
-*Jumpers
+* Jumpers
 
-*Smartphone
+* Smartphone
 
 ## **Circuito:**
 
