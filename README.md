@@ -14,9 +14,13 @@ As seguintes bibliotecas estão sendo usadas:
 ## **Materiais**
 
 *Placa Arduino Uno
+
 *Módulo Ethernet (ENC28J60)
+
 *Sensor Magnetico (MC-38)
+
 *Jumpers
+
 *Smartphone
 
 ## **Circuito:**
