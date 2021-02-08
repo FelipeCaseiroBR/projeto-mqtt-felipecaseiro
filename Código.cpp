@@ -26,6 +26,8 @@ EthernetClient client;
 PubSubClient mqttClient(client);
 
 void setup() {
+
+  pinMode(2, INPUT_PULLUP);
     //inicia o controlador Ethernet e solicita um IP para o servidor de DHCP
     Ethernet.begin(mac);
 
@@ -49,35 +51,30 @@ void setup() {
 
     Serial.println("");
 
-    delay(5000);
-
             }
 
 void loop() {
 
     //Cria um nome do Client MQTT e conecta com o servidor
-    mqttClient.connet("felipecaseiro");
+    mqttClient.connect("rack01");
 
     //sensor esta exibindo as informações do pin2
     sensor = digitalRead(pin2);
 
     if  (sensor == 0){
-        mensagem = mqttClient.publish("rack", "Rack Fechado.");
+        mensagem = mqttClient.publish("rack01", "Rack Fechado.");
         Serial.print("O estado do sensor e: ");
         Serial.println("Rack Fechado");
-        delay(5000);
-    }
+        
+    
 
-    else {
-        mensagem = mqttClient.publish("rack", "Rack Aberto");
+    }else{
+        mensagem = mqttClient.publish("rack01", "Rack Aberto");
         Serial.print("O estado do sensor e: ");
         Serial.println("Rack Aberto");
-        delay(5000);
   
     }
 
   mqttClient.loop();
-
-  delay(500);
 
 }
