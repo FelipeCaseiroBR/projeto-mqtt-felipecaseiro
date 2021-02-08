@@ -28,7 +28,9 @@ As seguintes bibliotecas estão sendo usadas:
 ![alt text](https://user-images.githubusercontent.com/78046298/106600827-b0484680-6539-11eb-8e03-3ae240c8656e.png)
 
 (MQTT Dash) https://play.google.com/store/apps/details?id=net.routix.mqttdash&hl=en&gl=US
+
 UIPEthernet https://github.com/UIPEthernet/UIPEthernet
+
 PubSubClient https://github.com/knolleary/pubsubclient
 
 ### Autor: Felipe Caseiro
