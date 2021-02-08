@@ -33,7 +33,7 @@ void setup() {
     Serial.begin(9600);
 
     //Define o IP e porta TCP do Broker MQTT
-    mqttClient.setServer("3.87.59.89",1883);
+    mqttClient.setServer("54.173.148.114",1883);
 
     //Exibe as informações do IP do Arduino
     Serial.print("O IP do Arduino e: ");
