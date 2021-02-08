@@ -35,4 +35,6 @@ PubSubClient https://github.com/knolleary/pubsubclient
 
 ### Autor: Felipe Caseiro
 
-**contact**
+### **Contato: felipe.a.caseiro@gmail.com**
+
+
